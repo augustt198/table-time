@@ -1,0 +1,61 @@
+<!doctype HTML>
+<html>
+  <head>
+    <!-- build:css styles/main.css -->
+    <link href="styles/main.css" rel="stylesheet">
+    <!-- endbuild -->
+
+    <!-- build:js scripts/popup.js -->
+    <script src="bower_components/jquery/dist/jquery.js"></script>
+    <script src="scripts/popup.js"></script>
+    <!-- endbuild -->
+
+    <style>
+      html,
+      body {
+        width: auto;
+      }
+
+      body {
+        background-color: #eee;
+        font-family: 'Helvetica Neue', Helvetica, Tahoma, sans-serif; 
+        padding: 40px;
+        font-size: 11px;
+        text-align: center;
+      }
+
+      .state {
+        font-weight: 400;
+        font-size: 22px;
+        margin: 0;
+      }
+
+      .table-card {
+        background-color: white;
+        border-radius: 5px;
+        padding: 10px;
+        border: 0;
+        margin: 20px 0;
+        width: 350px;
+      }
+
+      .monospace {
+        font-family: 'Consolas', 'Andale Mono', 'Courier', 'Menlo Regular', monospace;
+      }
+
+
+    </style>
+  </head>
+  <body>
+    
+    <h2 class="state">Loading...</h2>
+    
+    <div class="table-list">
+      
+    </div>
+
+    <button id="refresh">Refresh Tables</button>
+
+
+  </body>
+</html>
